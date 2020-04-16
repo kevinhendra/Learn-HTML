@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .baris {
+                display: flex;
+            }/*mengatur panjang ruas kiri*/
+
+            
+            .kiri {
+                flex: 8%;
+                padding: 10px;
+                background: linear-gradient(to right, #ffffff , #ffedb5);
+                height: 850px; 
+            }/*untuk mengatur ruas kiri*/
+            .kanan {
+                flex: 75%;
+                padding: 10px
+            } /*untuk mengatur ruas kanan*/
+            .menu{
+                font-size: 80%;
+                padding: 5px;
+            }
+            .warna{
+              font-size: 350%;
+              color : black;
+            }
+        </style>
+        <title>Sistem Informasi Akademik Satya Wacana</title>
+    </head>
+    <body>
+        <div align="right">
+        <img src="siasat.gif" alt="siasat"/>
+    </div>
+<table width="100%">
+    <tr>
+    <td>
+   <b>
+    <script type='text/javascript'>
+    <!--
+    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+    var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+    var date = new Date();
+    var day = date.getDate();
+    var month = date.getMonth();
+    var thisDay = date.getDay(),
+        thisDay = myDays[thisDay];
+    var yy = date.getYear();
+    var year = (yy < 1000) ? yy + 1900 : yy;
+    document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+    //-->
+    </script></b>
+    </td>
+               <td align="right"> | <a href="login.html">Logout</a></td>
+            </tr>
+        </table>
+        <hr>
+        <h4 style="background-color:black; font-family: calibri; color:white;">:: 672016010 - KEVIN HENDRA WILLIAM (FAKULTAS TEKNOLOGI INFORMASI - TEKNIK INFORMATIKA)
+                </br> :: SEMESTER 1 TA 2018 - 2019
+                </br> :: BEBAN SKS MAKSIMAL : 18 SKS</h4>
+        <div class="baris">
+            <div class="kiri" style="background-color:#aaa;">
+                <table>
+                    <tr>
+                        <td class="menu"> > <a href="Home.html">HOME</a></td>
+                    </tr>
+                    <tr>
+                        <td class="menu"> > <a href="panduan.html">PANDUAN</a>
+                            </br>
+                            --------------------------------
+                            </br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="menu"> > <a href="registrasimatakuliah.html">REGISTRASI MATAKULIAH</a></td>
+                    </tr>
+                    <tr>
+                        <td class="menu"> > <a href="jadwalkuliah.html">JADWAL KULIAH</a></td>
+                    </tr>
+                    <tr>
+                        <td class="menu"> > <a href="kartu.html">KARTU STUDI</a>
+                            </br>
+                            --------------------------------
+                            </br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="menu"> > <a href="gantipassword.html">GANTI PASSWORD</a></td>
+                    </tr>
+                </br>
+                        <td class="menu"> > <a href="profile.html">PROFILE </a>
+                        </br>
+                        --------------------------------
+                         </br>
+                        </td>
+                        <tr>
+                            <td>
+                               <b>1000 user online</b> 
+                            </td>
+                        </tr>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="kanan" style="background-color:#ffffff;">
+                <img src="home.jpg"><b>HOME</b>
+                <font size="2px"> <p>SELAMAT DATANG DI SISTEM INFORMASI AKADEMIK SATYA WACANA
+                    </br></br>
+                    UNTUK KEPERLUAN ADMINISTRASI ANDA, SILAHKAN UPDATE ISIAN DI BAWAH INI, DATA INI DIPERGUNAKAN UNTUK SYARAT PELAPORAN KE DIREKTORAT JENDERAL PENDIDIKAN TINGGI (DIKTI)</p></font>                           
+                <form action="home1.html" method="POST">
+                    <table>
+                         <tr>
+                            <td>No. Kartu Keluarga </td>
+                            <td>: <input type="text" name="kk" disabled/></td>
+                        </tr>
+                        <tr>
+                            <td>NIK (Nomor Induk Kependudukan) </td>
+                            <td>: <input type="text" name="nik" disabled/></td>
+                        </tr>
+
+                        <tr>
+                            <td>No. Handphone </td>
+                            <td>: <input type="text" name="hp" value="081xxxxxxx"/></td>
+                        </tr>
+                        <tr>
+                            <td>Email </td>
+                            <td>: <input type="text" name="email" size="35" value="672016010@student.uksw.edu"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Data telah tersimpan</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><span style="color: white"><input type="submit" name="submit" value="SIMPAN"/></span></td>
+                        </tr>
+                    </table>
+                </form>
+
+                <p>Demi kelancaran pengiriman email dari Bagian Administrasi Akademik UKSW, silahkan menggunakan email 
+                    </br>student.uksw.edu yang telah diberikan.</br></br>
+                    Bagian Administrasi Akademik UKSW tidak bertanggung jawab, apabila data yang anda berikan salah.</p>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

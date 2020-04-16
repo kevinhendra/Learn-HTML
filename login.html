@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Form </title>
+</head>
+<body>
+	<div align="right">
+		<img src="siasat.gif" alt="siasat"/>
+	</div>
+    <b>
+	<script type='text/javascript'>
+    <!--
+    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+    var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+    var date = new Date();
+    var day = date.getDate();
+    var month = date.getMonth();
+    var thisDay = date.getDay(),
+        thisDay = myDays[thisDay];
+    var yy = date.getYear();
+    var year = (yy < 1000) ? yy + 1900 : yy;
+    document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+    //-->
+    </script></b>
+   <hr>
+    <form method="POST" action="Home.html">
+        <table>
+            <tr>
+                <td width="100px">NIM</td>
+                <td>: &nbsp;&nbsp;<input type="text" name="NIM"/> </td>
+            </tr>
+            <tr>
+                <td width="100px">NAMA </td> 
+                <td>: &nbsp;&nbsp;<input type="password" name="PASS"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>&nbsp;<input type="submit" name="submit" value="Login">
+                &nbsp;<button onclick="alert('Password Anda Telah Dikirim Ke Email Anda')">Lupa Password</button></td>
+            </tr>
+            <tr>
+                <td colspan="10"> </br><img src="down.png"> <font size="3px"> Klik disini untuk info lebih lanjut </font><td>
+            </tr>
+        </table>
+        </form>
+        <hr>
+    <font size="2px"> BTSI Software Development </font>
+</body>
+</html>
